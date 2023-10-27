@@ -1,5 +1,6 @@
 ## Survival analisys  
 ### Libraries  
+```R
 library(survival)  
 library(edgeR) # for the cpm normalization  
 library(tidyverse) # for data cleaning and plotting  
@@ -7,7 +8,7 @@ library("TCGAbiolinks") # to acces to the project
 library("RTCGA")  
 library("RTCGA.clinical") # to download de clinical relevant data, survival status and times  
 llibrary("SummarizedExperiment")  
-
+```
 ### Normalization and data selection
 ```R
 VAVs_SKCM.surv<-survivalTCGA(SKCM.clinical)
